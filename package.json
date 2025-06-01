@@ -1,0 +1,42 @@
+{
+  "name": "use-custom-event-listener",
+  "version": "1.0.0",
+  "description": "A React hook for listening to custom DOM events",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "custom-event",
+    "typescript",
+    "nextjs"
+  ],
+  "peerDependencies": {
+    "react": "^17 || ^18"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.4",
+    "@types/react": "^19.1.6",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT",
+  "author": "Marvellous Nwachukwu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/use-custom-event-listener"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

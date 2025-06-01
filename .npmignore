@@ -1,0 +1,26 @@
+# Source files
+src/
+tsconfig.json
+
+# Development files
+.github/
+node_modules/
+pnpm-lock.yaml
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+__tests__/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Misc
+.git/
+.gitignore
+README.md
+CHANGELOG.md 
