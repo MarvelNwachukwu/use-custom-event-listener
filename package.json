@@ -1,6 +1,6 @@
 {
   "name": "use-custom-event-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook for listening to custom DOM events",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,7 +34,7 @@
   "author": "Marvellous Nwachukwu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/use-custom-event-listener"
+    "url": "https://github.com/MarvelNwachukwu/use-custom-event-listener"
   },
   "publishConfig": {
     "access": "public"
